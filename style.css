@@ -1,0 +1,120 @@
+
+
+
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+   width: 800px;
+   height: 800px;
+ 
+}
+
+
+
+.item{
+    display: flex;
+    flex-grow: 1;
+    height:59.25px;
+}
+.item div{
+    flex-grow: 1;
+    flex-basis: 0;
+    border-color: black;
+    border-style: solid;
+
+  
+
+
+}
+
+.item .hover{
+    background-color: red;
+    
+   
+}
+
+#drawbox{
+
+    height: 800px;
+    width: 800px;
+    border-color: black;
+    border-style: solid;
+    align-self: flex-end;
+      
+}
+
+#copy{
+    height: 400px;
+    width: 400px;
+    border-color: black;
+    border-style: solid;
+    margin-right: 12px;
+    
+}
+#big{
+    margin-left: 24px;
+    display: flex;
+    
+
+}
+
+h1{
+    align-self: center;
+    margin-bottom: 44px;
+    margin-top: 24px;
+}
+#color{
+
+width: 64px;
+height:64px;
+
+border-style: none;
+background-image:url('img/palette.png');
+
+}
+
+#eraser{
+    width: 64px;
+    height:64px;
+    background-color: transparent;
+    border-style: none;
+    background-image:url('img/eraser.png');
+
+}
+#pencil{
+    width: 64px;
+    height: 64px;
+    background-color: transparent;
+    border-style: none;
+    background-image:url('img/pencils.png');
+    
+}
+
+#clear{
+    width: 64px;
+    height: 64px;
+    background-color: transparent;
+    border-style: none;
+    background-image:url('img/trash3.png');
+
+}
+
+
+
