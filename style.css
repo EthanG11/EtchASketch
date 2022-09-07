@@ -8,6 +8,8 @@ body {
     min-height: 100%;
     display: flex;
     flex-direction: column;
+    
+    
 }
 * { 
     margin: 0;
@@ -50,12 +52,13 @@ body {
    
 }
 
-#drawbox{
+.drawbox{
 
     height: 800px;
     width: 800px;
-    border-color: black;
+    border-color: black ;
     border-style: solid;
+    
     align-self: flex-end;
       
 }
@@ -70,7 +73,9 @@ body {
 }
 #big{
     margin-left: 24px;
+    padding-left: 50px;
     display: flex;
+    align-self: center;
     
 
 }
@@ -79,6 +84,8 @@ h1{
     align-self: center;
     margin-bottom: 44px;
     margin-top: 24px;
+    color: blue;
+    font-family:cursive;
 }
 #color{
 
@@ -86,11 +93,11 @@ width: 64px;
 height:64px;
 
 border-style: none;
-background-image:url('img/palette.png');
+
 
 }
 
-#eraser{
+.eraser{
     width: 64px;
     height:64px;
     background-color: transparent;
@@ -98,7 +105,7 @@ background-image:url('img/palette.png');
     background-image:url('img/eraser.png');
 
 }
-#pencil{
+.pencil{
     width: 64px;
     height: 64px;
     background-color: transparent;
@@ -107,7 +114,7 @@ background-image:url('img/palette.png');
     
 }
 
-#clear{
+.clear{
     width: 64px;
     height: 64px;
     background-color: transparent;
@@ -116,5 +123,48 @@ background-image:url('img/palette.png');
 
 }
 
+button.selected{
+    border-style: solid;
+    border-color: rgb(193, 228, 18);
+    border-radius: 10px;
+    
+}
 
+#buttoncont{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
 
+}
+
+button{
+    margin-bottom: 30px;
+}
+
+.size{
+    width: 64px;
+    height: 64px;
+    background-color: transparent;
+    border-style: none;
+    background-image:url('img/ruler.png');
+    
+}
+
+.done{
+    width: 64px;
+    height: 64px;
+    background-color: transparent;
+    border-style: none;
+    background-image:url('img/checked.png');
+
+}
+
+#clearGrid{
+
+    
+    border-color: transparent;
+    border-style: none;
+    
+      
+
+}
